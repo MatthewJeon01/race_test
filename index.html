@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Vercel Test Page</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      gap: 20px;
+    }
+    img {
+      max-width: 300px;
+    }
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      background-color: #0070f3;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0059c1;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 이미지 -->
+  <img src="./images/speedgoat_logo.png" alt="logo">
+
+  <!-- 버튼 -->
+  <button onclick="handleClick()">클릭해봐</button>
+
+  <script>
+    function handleClick() {
+      alert("버튼 눌림!");
+    }
+  </script>
+
+</body>
+</html>
